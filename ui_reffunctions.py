@@ -8,11 +8,11 @@
 # WARNING! All changes made in this file will be lost!
 
 #from PyQt4 import QtCore, QtGui
-from qgis.PyQt import QtCore, QtGui
+from PyQt4 import QtCore, QtGui
 try:
-    from qgis.PyQt.QtGui import QHBoxLayout, QTextEdit, QApplication
+    from PyQt4.QtGui import QHBoxLayout, QTextEdit, QApplication
 except:
-    from qgis.PyQt.QtWidgets import QHBoxLayout, QTextEdit, QApplication
+    from PyQt4.QtWidgets import QHBoxLayout, QTextEdit, QApplication
 
 
 
