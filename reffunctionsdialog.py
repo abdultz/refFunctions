@@ -21,11 +21,11 @@
 """
 import os
 
-from qgis.PyQt import QtGui, uic
+from PyQt4 import QtGui, uic
 try:
-    from qgis.PyQt.QtGui import QDialog
+    from PyQt4.QtGui import QDialog
 except:
-    from qgis.PyQt.QtWidgets import QDialog
+    from PyQt4.QtWidgets import QDialog
     
 from .ui_reffunctions import Ui_refFunctionDialog
 
