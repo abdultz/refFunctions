@@ -22,11 +22,11 @@ ReferenceFunctions
  ***************************************************************************/
 """
 # Import the PyQt and QGIS libraries
-from qgis.PyQt.QtCore import *
-from qgis.PyQt.QtGui import *
-from qgis.PyQt.QtSql import *
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
+from PyQt4.QtSql import *
 try:
-    from qgis.PyQt.QtWidgets import *
+    from PyQt4.QtWidgets import *
 except:
     pass
 #from qgis.core import *
